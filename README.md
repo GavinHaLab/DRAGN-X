@@ -14,7 +14,16 @@ Three directories are too large for GitHub and are hosted on [Zenodo](https://ze
 - **Test_bw**
 - **Trained_Models**
 
-Download them and place all three inside the DRAGN-X pipeline directory.
+From inside the DRAGN-X pipeline directory, download and unzip them:
+
+```bash
+wget "https://zenodo.org/records/22970009/files/DRAGN-X_files.zip?download=1" -O DRAGN-X_files.zip
+unzip DRAGN-X_files.zip
+mv DRAGN-X_files/* .
+rm -r DRAGN-X_files DRAGN-X_files.zip
+```
+
+This places all three directories inside the DRAGN-X pipeline directory.
 
 
 ## 2. Prepare Your Input
