@@ -1,0 +1,14 @@
+#Meth_profiler.snakefile
+#Mohamed Adil
+#09-09-2023
+#Ha & Haffner Lab
+#Fred Hutchinson Cancer Research Center
+
+__default__:
+    partition: campus-new
+    time: "24:0:0"
+    mem: 4G
+    ncpus: 1
+    ntasks: 1
+    output: logs/cluster/{rule}.{wildcards.samples}.%A.out
+    JobName: "{rule}.{wildcards.samples}"

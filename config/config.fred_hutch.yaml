@@ -1,0 +1,32 @@
+###############
+#config files##
+###############
+cluster_slurm: config/cluster_slurm.yaml
+sites_yaml: config/sites.yaml
+samples_yaml: config/samples.yaml
+code_dir: code
+results_dir: results
+#########################################
+#params for Meth profiler ###############
+#########################################
+Reference_fasta: /fh/fast/ha_g/grp/reference/GRCh37/GRCh37.fa #/fh/fast/ha_g/grp/reference/GRCh38/GRCh38.fa /fh/fast/ha_g/grp/reference/GRCh37/GRCh37.fa
+TSS_file: Reference_files/hg19_bed/Gene_Body_MANE_hg19LO_Gencodev36_updated.bed
+
+#Methylation scale 
+Methylation_scale: 100 #100 for 0-100%, 1 for 0-1 scale
+
+#Sliding params
+Sliding_CpG_window: 200 
+Sliding_distance: 10
+CpG_thresholds_list: '0.2 0.4 0.6 0.8'
+
+##########################################
+#params for DRAGN-X ###############
+##########################################
+
+##Trained models 
+Trained_model_path: Trained_Models/
+
+##Background reference for SignalEnhancer
+background_reference_Male_path: Reference_files/Healthy_male_donor_plasma_cfDNA_EMseq_meth_profiler_v6_feature_matrix.csv.gz
+background_reference_Female_path: Reference_files/Healthy_female_donor_plasma_cfDNA_EMseq_meth_profiler_v6_feature_matrix.csv.gz

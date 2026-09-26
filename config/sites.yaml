@@ -1,0 +1,30 @@
+sites:
+  #Map_name: path/to/Map.bed ##Make sure bed file has a header "Chrom","Start","End","name" ...
+  #hg19 sites
+  Gene_Body_MANE_hg19LO: Reference_files/hg19_bed/Gene_Body_MANE_hg19LO_Gencodev36_updated.bed
+  H3K4me3_informed_GB_hg19: Reference_files/hg19_bed/H3K4me3_informed_GB_hg19.bed
+  H3K4me3_informed_Promoter_hg19: Reference_files/hg19_bed/H3K4me3_informed_Promoter_hg19.bed
+  TSS_MANE_500_hg19: Reference_files/hg19_bed/TSS_MANE_500_hg19.bed
+  TSS_MANE_1000_hg19: Reference_files/hg19_bed/TSS_MANE_1000_hg19.bed
+  TSS_MANE_1500_hg19: Reference_files/hg19_bed/TSS_MANE_1500_hg19.bed
+  TSS_MANE_2000_hg19: Reference_files/hg19_bed/TSS_MANE_2000_hg19.bed
+  TSS_MANE_2500_hg19: Reference_files/hg19_bed/TSS_MANE_2500_hg19.bed
+  H3K4me3_informed_GB_hg19_Seg_0: Reference_files/hg19_bed/H3K4me3_informed_GB_hg19_Seg_0.bed
+  H3K4me3_informed_GB_hg19_Seg_1: Reference_files/hg19_bed/H3K4me3_informed_GB_hg19_Seg_1.bed
+  H3K4me3_informed_GB_hg19_Seg_2: Reference_files/hg19_bed/H3K4me3_informed_GB_hg19_Seg_2.bed
+  H3K4me3_informed_GB_hg19_Seg_3: Reference_files/hg19_bed/H3K4me3_informed_GB_hg19_Seg_3.bed
+  H3K4me3_informed_GB_hg19_Seg_4: Reference_files/hg19_bed/H3K4me3_informed_GB_hg19_Seg_4.bed
+  # #hg38 sites
+  # Gene_Body_MANE_hg19LO: Reference_files/hg38_bed/Gene_Body_MANE_hg38_Gencodev36_updated.bed
+  # H3K4me3_informed_GB_hg19: Reference_files/hg38_bed/H3K4me3_informed_GB_hg38.bed
+  # H3K4me3_informed_Promoter_hg19: Reference_files/hg38_bed/H3K4me3_informed_Promoter_hg38.bed
+  # TSS_MANE_500_hg19: Reference_files/hg38_bed/TSS_MANE_500_hg38.bed
+  # TSS_MANE_1000_hg19: Reference_files/hg38_bed/TSS_MANE_1000_hg38.bed
+  # TSS_MANE_1500_hg19: Reference_files/hg38_bed/TSS_MANE_1500_hg38.bed
+  # TSS_MANE_2000_hg19: Reference_files/hg38_bed/TSS_MANE_2000_hg38.bed
+  # TSS_MANE_2500_hg19: Reference_files/hg38_bed/TSS_MANE_2500_hg38.bed
+  # H3K4me3_informed_GB_hg19_Seg_0: Reference_files/hg38_bed/H3K4me3_informed_GB_hg38_Seg_0.bed
+  # H3K4me3_informed_GB_hg19_Seg_1: Reference_files/hg38_bed/H3K4me3_informed_GB_hg38_Seg_1.bed
+  # H3K4me3_informed_GB_hg19_Seg_2: Reference_files/hg38_bed/H3K4me3_informed_GB_hg38_Seg_2.bed
+  # H3K4me3_informed_GB_hg19_Seg_3: Reference_files/hg38_bed/H3K4me3_informed_GB_hg38_Seg_3.bed
+  # H3K4me3_informed_GB_hg19_Seg_4: Reference_files/hg38_bed/H3K4me3_informed_GB_hg38_Seg_4.bed
