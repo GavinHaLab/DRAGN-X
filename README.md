@@ -14,12 +14,8 @@ Three directories are too large for GitHub and are hosted on [Zenodo](https://ze
 - **Test_bw**
 - **Trained_Models**
 
-Download them and place all three inside the DRAGN-X pipeline directory. To download directly on the cluster:
+Download them and place all three inside the DRAGN-X pipeline directory.
 
-```bash
-pip install zenodo_get
-zenodo_get 22970009
-```
 
 ## 2. Prepare Your Input
 
