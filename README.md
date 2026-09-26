@@ -58,10 +58,10 @@ snakemake -s DRAGN-X.snakefile \
 | results/Feature_matrix/ | Aggregated raw MethProfiler features used as input for DRAGN-X. |
 | results/DRAGN-X/ | SignalEnhanced features, BaseModel predictions, and DRAGN-X inferred expression for 18,172 genes. |
 
-## 6. Output Annotation
+## 6. DRAGN-X Annotation
 
 | Term | Description |
 |---|---|
 | **SignalEnhanced features** | Raw methylation features enhanced against a reference background to increase signal-to-noise ratio. |
-| **BaseModel** (Model_1) | Models predicting the probability of gene activity (0 = off, 1 = on). |
-| **DRAGN-X** (Model_2, Model_3) | Models predicting continuous gene expression on a log2(TPM+1) scale. |
+| **BaseModel** (Model_1c2_Prob) | Models predicting the probability of gene activity (0 = off, 1 = on). |
+| **DRAGN-X** (Model_3c2_Prob_0_scaled,Model_3c2_Prob_100_scaled,Model_3c2_Prob_200_scaled,Model_3c2_Prob_500_scaled, Model_3c2_Prob_1000_scaled) | Models predicting continuous gene expression on a log2(TPM+1) scale. |
