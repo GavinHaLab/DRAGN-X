@@ -66,3 +66,20 @@ snakemake -s DRAGN-X.snakefile \
 | results/MethProfiler/ | Extracted methylation files. Safe to delete to save space. |
 | results/Feature_matrix/ | Aggregated raw MethProfiler features used as input for DRAGN-X. |
 | results/DRAGN-X/ | SignalEnhanced features, BaseModel predictions, and DRAGN-X inferred expression for 18,172 genes. |
+
+
+## 6. DRAGN-X Annotation
+
+Columns in the DRAGN-X output file:
+
+| Column | Description | Sensitivity | Stability |
+|---|---|---|---|
+| name | Gene symbol | – | – |
+| Model_1c2_Prob | BaseModel gene activity probability | – | – |
+| Model_3c2_Prob_0_scaled | DRAGN-X inferred gene expression | High | Low |
+| Model_3c2_Prob_100_scaled | DRAGN-X inferred gene expression | High | Low |
+| Model_3c2_Prob_200_scaled | DRAGN-X inferred gene expression | Medium | Medium |
+| Model_3c2_Prob_500_scaled | DRAGN-X inferred gene expression | Low | High |
+| Model_3c2_Prob_1000_scaled | DRAGN-X inferred gene expression | Low | High |
+
+Inferred gene expression is on the log2(TPM+1) scale.
