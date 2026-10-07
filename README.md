@@ -20,7 +20,7 @@ From inside the DRAGN-X pipeline directory, download and unzip them:
 unzip DRAGN-X_files.zip
 ```
 
-This places all three directories inside the DRAGN-X pipeline directory.
+Place all three unzipped directories inside the DRAGN-X pipeline directory.
 
 
 ## 2. Prepare Your Input
