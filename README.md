@@ -27,6 +27,7 @@ This places all three directories inside the DRAGN-X pipeline directory.
 
 **config/samples.yaml**
 - Add paths to your percentage methylation files (.bw format).
+- A demo file has been provided in sample.yaml
 - Specify sex as male or female. If not specified, the **SignalEnhancer** step is skipped.
 - Set enhancement_factor to adjust signal enhancement (recommended range: 0–10). A value of 0 skips **SignalEnhancer**.
 
